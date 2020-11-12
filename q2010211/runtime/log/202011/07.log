@@ -1,0 +1,267 @@
+---------------------------------------------------------------
+[ 2020-11-07T17:54:00+08:00 ] 127.0.0.1 GET q2010211.test/api/main_order/getOrderByStatus?status=70&page=1&size=10
+[运行时间：0.131041s] [吞吐率：7.63req/s] [内存消耗：3,161.56kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003199s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000607s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'main_order',
+    2 => 'getOrderByStatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.105:8080/',
+  'origin' => 'http://192.168.1.105:8080',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => 'c780e617-0e4e-4071-9b64-b95d68221b21',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'q2010211.test',
+)
+[ info ] [ PARAM ] array (
+  'status' => '70',
+  'page' => '1',
+  'size' => '10',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001213s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\public/../application/api/lang/fafc/mainorder.php
+[ info ] [ RUN ] app\api\controller\MainOrder->getOrderByStatus[ D:\phpStudy\PHPTutorial\WWW\q2010211\application\api\controller\MainOrder.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-07T17:54:01+08:00 ] 127.0.0.1 GET q2010211.test/api/user/getUserInfo
+[运行时间：0.119298s] [吞吐率：8.38req/s] [内存消耗：3,073.55kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000054s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003284s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000651s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'getUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.105:8080/',
+  'origin' => 'http://192.168.1.105:8080',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => 'c780e617-0e4e-4071-9b64-b95d68221b21',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'q2010211.test',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001831s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\public/../application/api/lang/fafc/user.php
+[ info ] [ RUN ] app\api\controller\User->getUserInfo[ D:\phpStudy\PHPTutorial\WWW\q2010211\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-07T17:58:11+08:00 ] 127.0.0.1 GET q2010211.test/api/category/getTopCategory
+[运行时间：0.110139s] [吞吐率：9.08req/s] [内存消耗：3,004.64kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004016s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000569s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getTopCategory',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.105:8080/',
+  'origin' => 'http://192.168.1.105:8080',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => 'c780e617-0e4e-4071-9b64-b95d68221b21',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'q2010211.test',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001184s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\public/../application/api/lang/fafc/category.php
+[ info ] [ RUN ] app\api\controller\Category->getTopCategory[ D:\phpStudy\PHPTutorial\WWW\q2010211\application\api\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-07T17:58:11+08:00 ] 127.0.0.1 GET q2010211.test/api/category/getNextCategoryByPID?id=40
+[运行时间：0.099264s] [吞吐率：10.07req/s] [内存消耗：3,004.30kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003433s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000578s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getNextCategoryByPID',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.105:8080/',
+  'origin' => 'http://192.168.1.105:8080',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => 'c780e617-0e4e-4071-9b64-b95d68221b21',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'q2010211.test',
+)
+[ info ] [ PARAM ] array (
+  'id' => '40',
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001198s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\public/../application/api/lang/fafc/category.php
+[ info ] [ RUN ] app\api\controller\Category->getNextCategoryByPID[ D:\phpStudy\PHPTutorial\WWW\q2010211\application\api\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-07T17:58:13+08:00 ] 127.0.0.1 GET q2010211.test/api/cart/getCartListByShopID
+[运行时间：0.123150s] [吞吐率：8.12req/s] [内存消耗：3,050.52kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003437s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000587s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'cart',
+    2 => 'getCartListByShopID',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.1.105:8080/',
+  'origin' => 'http://192.168.1.105:8080',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => 'c780e617-0e4e-4071-9b64-b95d68221b21',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'q2010211.test',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001175s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\public/../application/api/lang/fafc/cart.php
+[ info ] [ RUN ] app\api\controller\Cart->getCartListByShopID[ D:\phpStudy\PHPTutorial\WWW\q2010211\application\api\controller\Cart.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-07T18:01:32+08:00 ] 192.168.1.105 OPTIONS q2010211.test/api/cart/getCartListByShopID
+[运行时间：0.046823s] [吞吐率：21.36req/s] [内存消耗：1,961.73kb] [文件加载：117]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000102s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003606s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000511s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'cart',
+    2 => 'getCartListByShopID',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Mobile Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'token',
+  'access-control-request-method' => 'GET',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'q2010211.test',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001227s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-07T18:01:32+08:00 ] 192.168.1.105 GET q2010211.test/api/cart/getCartListByShopID
+[运行时间：0.114927s] [吞吐率：8.70req/s] [内存消耗：3,050.51kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003146s ]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000552s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'cart',
+    2 => 'getCartListByShopID',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4d144a50-902f-4823-a976-f5041603f3a1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Mobile Safari/537.36',
+  'connection' => 'close',
+  'host' => 'q2010211.test',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001156s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\q2010211\public/../application/api/lang/fafc/cart.php
+[ info ] [ RUN ] app\api\controller\Cart->getCartListByShopID[ D:\phpStudy\PHPTutorial\WWW\q2010211\application\api\controller\Cart.php ]
+[ info ] [ LOG ] INIT File

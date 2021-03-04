@@ -40,11 +40,13 @@ class OrderPayForm extends OrderPayFormBase
             ];
         }
         /** @var Order[] $orders */
-        $orders = Order::find()->where([
+        $where = [
             'token' => $this->token,
             'is_delete' => 0,
             'user_id' => \Yii::$app->user->id,
-        ])->all();
+        ];
+        $orders = Order::find()->where($where)->all();
+        \Yii::info(json_encode($where));
         if (!$orders || !count($orders)) {
             $orderSubmitResult = OrderSubmitResult::findOne([
                 'token' => $this->token,
